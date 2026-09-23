@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter basename="/fl-c26242-tp">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </StrictMode>,
